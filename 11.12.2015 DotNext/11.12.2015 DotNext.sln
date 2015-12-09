@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGraphNet", "PowerGraphNet\PowerGraphNet.csproj", "{EB418329-F14A-4735-A69C-10A4174DB79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlFraud", "SqlFraud\SqlFraud.csproj", "{EFBF2E31-31C0-4A8A-931C-BD086967AEDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqEditor", "SeqEditor\SeqEditor.csproj", "{0C8E7448-22EF-423C-88D9-8827CD945B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB418329-F14A-4735-A69C-10A4174DB79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB418329-F14A-4735-A69C-10A4174DB79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB418329-F14A-4735-A69C-10A4174DB79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB418329-F14A-4735-A69C-10A4174DB79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBF2E31-31C0-4A8A-931C-BD086967AEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBF2E31-31C0-4A8A-931C-BD086967AEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBF2E31-31C0-4A8A-931C-BD086967AEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBF2E31-31C0-4A8A-931C-BD086967AEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8E7448-22EF-423C-88D9-8827CD945B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8E7448-22EF-423C-88D9-8827CD945B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8E7448-22EF-423C-88D9-8827CD945B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8E7448-22EF-423C-88D9-8827CD945B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿{
+  "Timestamp": "2015-11-29T17:48:39.5808170+03:00",
+  "Level": "Information",
+  "MessageTemplate": "Processing {RequestMethod} {Path}",
+  "RenderedMessage": "Processing GET /api/auth",
+  "Properties": {
+    "RequestMethod": "GET",
+    "Path": "/api/auth",
+    "Referer": "Gateway",
+    "EventType": "HttpRequest",
+    "Host": "Auth",
+    "AppRequestId": "a88a3c1a6d394c9abc68db1d70cb3ac4" 
+  } 
+}
