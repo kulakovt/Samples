@@ -1,15 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Serilog;
 
 namespace SeqEditor
 {
-    class Program
+    public sealed class Program
     {
-        static void Main(string[] args)
+        public static readonly ILogger BaseLogger = InitializeLogger();
+
+        public static void Main(string[] args)
         {
+            var story = new Story();
+            story.Run();
+        }
+
+        private static ILogger InitializeLogger()
+        {
+            
+            var configuration = new LoggerConfiguration()
+                //.Enrich.FromLogContext()
+                .Enrich.WithThreadId()
+                .MinimumLevel.Verbose()
+                .WriteTo.Seq("http://localhost:5342")
+                .WriteTo.LiterateConsole(
+                    outputTemplate: "[{Timestamp:HH:mm:ss.FFFF}] {Message}{NewLine}{Exception}");
+
+            return configuration.CreateLogger();
         }
     }
 }
