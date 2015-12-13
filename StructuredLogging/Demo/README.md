@@ -1,2 +1,1 @@
-# DotNext 2015 MSK Demo
-http://dotnext.ru/
+# DotNext 2015 MSK Demos
