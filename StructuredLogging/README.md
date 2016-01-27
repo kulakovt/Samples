@@ -1,14 +1,16 @@
 # Structured Logging
 
-My slides and demos from [DotNext 2015 MSK](http://msk2015.dotnext.ru/talks/kulakov/)
+Introducing into structured logging and tools for .Net developers, such as Serilog and Seq.
 
 ![Better way to log](./Images/Morpheus.jpg)
 
-## Documentation:
+## Public Talks
+`[2015-12-22]` [SPB DOT NET (Saint Petersburg)](https://spbdotnet.timepad.ru/event/276704/)  
+`[2015-12-11]` [DotNext (Moscow)](http://msk2015.dotnext.ru/talks/kulakov/) ([slides](../../dotnext/StructuredLogging/StructuredLogging.pptx), [demos](../../dotnext/StructuredLogging/Demo))
+
+## Links
 - [Serilog site](http://serilog.net/)
 - [Seq site](https://getseq.net/)
 - [Nicholas Blumhardt blog](http://nblumhardt.com/)
-
-## Other languages
 - [FSharp support for Serilog](https://github.com/destructurama/fsharp)
 - [JavaScript implementation of Serilog](https://github.com/structured-log/structured-log)
