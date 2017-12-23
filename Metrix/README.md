@@ -6,6 +6,7 @@ Introduction into Time Series and tools for .Net developers, such as InfluxDB an
 
 ## Public Talks
 
+`[2017-12-09]` [.NET Dev Meetup, Belarus, Minsk](https://www.facebook.com/events/1996515497260556/) ([Pdf slides](../../minsk2017/Metrix/Metrix.pdf))  
 `[2017-11-23]` [SpbDotNet, Saint Petersburg](https://spbdotnet.timepad.ru/event/610557/) ([Video](https://www.youtube.com/watch?v=pjmRqIgoyFE), [Pdf slides](../../spbdotnet24/Metrix/Metrix.pdf), [SlideShare slides](https://www.slideshare.net/SpbDotNet/the-metrix-has-you))  
 `[2017-11-12]` [DotNext, Moscow](https://dotnext-moscow.ru/2017/msk/talks/2wij6mss4oea0mqi2g0ewk/) ([Video](https://www.youtube.com/watch?v=AFB89L8DLpE), [Pdf slides](../../dotnext2017/Metrix/Metrix.pdf))
 
