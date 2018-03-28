@@ -2,7 +2,7 @@
 
 Introduction into Time Series and tools for .Net developers, such as InfluxDB and Grafana.
 
-![Better way to log](./Images/Carl.jpg)
+![Big data](./Images/Carl.jpg)
 
 ## Public Talks
 
