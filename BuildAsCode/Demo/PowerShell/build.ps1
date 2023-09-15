@@ -100,7 +100,7 @@ $InformationPreference = 'Continue'
 ##################### Specification #####################
 
 $ServiceName = "Buldac"
-$ServiceMainProjectPath = "./src/Buldac/Buldac.csproj" # C:\Users\akulakov\Desktop\GitHub\Samples\BuildAsCode\src\Buldac\Buldac.csproj
+$ServiceMainProjectPath = "./src/Buldac/Buldac.csproj"
 $ServiceMainAssemblyName = "Buldac.dll"
 
 $DockerImageName = $ServiceName.ToLower()
